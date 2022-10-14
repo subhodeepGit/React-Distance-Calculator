@@ -9,7 +9,7 @@ const MainNavigation = () => {
           <span role="img" aria-label="map">
             🗺️
           </span>{" "}
-          React Distance Calculator
+          Distance Calculator
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
