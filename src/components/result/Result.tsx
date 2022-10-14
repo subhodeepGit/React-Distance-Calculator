@@ -26,7 +26,8 @@ const Result = () => {
     setErrorCalculating(false);
     //Loads Google Maps API
     const loader = new GoogleMapsLoader({
-      apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY as string,
+//       apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY as string,
+      apiKey: "AIzaSyDxMLRKVlrSYZEtt3Vy4ZtKQIqlTS9HAyA" as string,
       version: "weekly",
       libraries: MapHelper.libraries,
     });
